@@ -1,32 +1,65 @@
-<?xml version = ?1.0? encoding "utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns = "http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
-    <title> Nathan Harman's Home Page </title>
+    <title>Nathan Harman's Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/master.css" type="text/css" rel="stylesheet">
+
+    <!-- Used for IE 9 -->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   </head>
-  <body style = "background-color: lightblue; color: darkblue">
-    <div style = "font-family: 'Georgia'; margin:auto; text-align:center">
-      <h1><i>Welcome to Nathan Harman's Home Page</i></h1>
-      <h3><a href = "">Assignments</a></h3>
-      <hr />
-      <blockquote style = "font-size: 14pt"><i>
-            "It isn't as bad as you sometimes think it is. It all works out.
-            Don't worry. I say that to myself every morning. It will all 
-            work out. If you do your best, it will all work out. Put your 
-            trust in God, and move forward with faith and confidence in the 
-            future. The Lord will not forsake us. He will not forsake us. 
-            ... If we will put our trust in Him, If we will pray to Him, If 
-            we will live worthy of His blessings, He will hear our prayers."
-            <br />
-            - Gordon B. Hinckley
-      </i></blockquote>
-      <p style = "font-size: 16pt">
-      Nathan Harman, Computer Science, Canton, Georgia<br />
-      <img src = "nateandcynthia.jpg" alt = "Nate and Cynthia"
-      width = "518" height = "346">
-      <br />
-      My wife, Cynthia, and I</p>
-    </div>
+  <body class="background">
+    
+      <div class="center">
+        
+        <br />
+        <h2 class="font">Nathan Harman's Homepage</h2>
+        <br/>
+        <p><a class="btn btn-lg btn-success" href="assign.html" role="button">Assignments</a></p>
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="pics/nateandcynthia.jpg" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>My wife Cynthia and I</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pics/van1.JPG" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>My son Van</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pics/van2.JPG" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>My son Van</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+            
+      </div>
+        
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/master.js"></script>
   </body>
 </html>

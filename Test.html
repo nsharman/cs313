@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+
+<body>
+    <h2>Your Information</h2>
+    <form method="post" action="inclass2.php">
+        <table>
+            <tr>
+                <th>
+                    Name:
+                </th>
+                <td>
+                    <input type="text" name="name"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Email: 
+                </th>
+                <td>
+                    <input type="text" name="email"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Major: 
+                </th>
+                <td>
+                    <input type="radio" name="major" value="CS"/>Computer Science<br/>
+                    <input type="radio" name="major" value="WEB"/>Web Development and Design<br/>
+                    <input type="radio" name="major" value="CIT"/>Computer Information Technology<br/>
+                    <input type="radio" name="major" value="CE"/>Computer Engineering<br/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Places I have visited: 
+                </th>
+                <td>
+                    <input type="checkbox" name="visited[]" value="North America"/>North America<br/>
+                    <input type="checkbox" name="visited[]" value="South America"/>South America<br/>
+                    <input type="checkbox" name="visited[]" value="Europe"/>Europe<br/>
+                    <input type="checkbox" name="visited[]" value="Asia"/>Asia<br/>
+                    <input type="checkbox" name="visited[]" value="Australia"/>Australia<br/>
+                    <input type="checkbox" name="visited[]" value="Africa"/>Africa<br/>
+                    <input type="checkbox" name="visited[]" value="Antarctica"/>Antarctica<br/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Comments: 
+                </th>
+                <td>
+                    <textarea name="comments"></textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+        <input type="reset" />
+    </form>
+
+</body>
+</html>

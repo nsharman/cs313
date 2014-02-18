@@ -1,0 +1,37 @@
+.background {
+        background: url('../pics/Ubuntu.jpeg') no-repeat center center fixed;
+        background-size: 100% 100%;
+}
+.center{
+    text-align: center;
+}
+.font{
+    color: lightgreen;
+    font-family: georgia;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  width: 950px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  width: 950px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
